@@ -2,7 +2,7 @@ package database
 
 import groovy.sql.Sql
 
-class GroovySqlExample2 {
+class SqlExample2 {
   static void main(String[] args) {
     def sql = Sql.newInstance("jdbc:mysql://localhost:3306/company", "root",
            "root", "com.mysql.jdbc.Driver")
